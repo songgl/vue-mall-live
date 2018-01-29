@@ -1,0 +1,110 @@
+
+@charset "utf-8";
+/*****************************************
+* @Author: StoryPeanut
+* @Date: 2017-11-08
+* @Last Modified by: StoryPeanut
+* @Last Modified time: 2017-11-08
+********************************************/
+body{font-size: 0.2rem;background:#eef3f5;}
+
+.pageBox {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.box_touch{
+	-webkit-overflow-scrolling: touch;
+  z-index: 1;
+  overflow: auto;
+  overflow-x: hidden;
+  flex: 1;
+  position: relative;
+}
+
+.nav_act { border-bottom: 0.04rem solid red }
+
+/* 公用icon */
+.left_white_icon { background: url(../icon/fanhui-bai@2x.png) no-repeat center; background-size: cover; }
+.left_icon { background: url(../icon/fanhui-hei@2x.png) no-repeat center; background-size: cover; }
+.right_icon { background: url(../icon/xiangzuo-hui@2x.png) no-repeat center;background-size: cover; }
+.msg_white_icon { background: url(../icon/wode_xiaoxi@2x.png) no-repeat center;background-size: cover; }
+.man_icon { background: url(../icon/man@2x.png) no-repeat center;background-size: cover; }
+.woman_icon { background: url(../icon/icon_woman@2x.png) no-repeat center;background-size: cover; }
+.check_icon{background:url(../icon/tongyi-hui@2x.png) no-repeat center;background-size: cover;}
+.check_act_icon{background:url(../icon/tongyi@2x.png) no-repeat center;background-size: cover;}
+.cart_white_icon { background: url(../icon/Shopping-Cart@2x.png) no-repeat center;background-size: cover; }
+.address_icon { background: url(../icon/querendingdan-dizhi@2x.png) no-repeat center;background-size: cover; }
+.colour_line_icon { background: url(../icon/xiangqing_qrdd_caidai@2x.png) no-repeat center;background-size: cover; }
+.search_white_icon {background: url(../icon/dianpu_sousuo@2x.png) no-repeat center;background-size: cover;}
+.play_icon { background: url(../icon/direct-seeding_play_Button@2x@2x@2x.png) no-repeat center;background-size: cover; }
+.diamonds_icon { background: url(../icon/zuanshi@2x.png) no-repeat center; background-size: cover; }
+
+/*商品详情*/
+.ensure_icon { background: url(../icon/To-examine_Success_red@2x.png) no-repeat center;background-size: cover; }
+.close_red_icon { background: url(../icon/shouhou-guanbi@2x.png) no-repeat center; background-size: cover; }
+.close_gray_icon { background: url(../icon/xinzendizhi-guanbi@2x.png) no-repeat center;background-size: cover; }
+.specItem_act { color: #fff;background:red; }
+.kf_icon { background: url(../icon/xiangqing_kefu@2x.png) no-repeat center;background-size: cover; }
+.shop_icon { background: url(../icon/xiangqing_dianpu@2x.png) no-repeat center;background-size: cover; }
+.collection_icon { background: url(../icon/xiangqing_shoucang_hui@2x.png) no-repeat center;background-size: cover; }
+.collection_act_icon { background: url(../icon/xiangqing_shoucang_hong@2x.png) no-repeat center;background-size: cover; }
+
+/*物流*/
+.logisticsLi{top:0;left: -0.46rem;}
+
+/* flex */
+.box{
+  display: flex;
+}
+.box_start{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.box_center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box_between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box_arou{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box_end{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+/*纵向布局*/
+.box_direction{
+  display: flex;
+  flex-direction: column; 
+}
+.media{
+  display: flex;
+  align-items: flex-start;
+}
+/*项目排不下会换行*/
+.flex_wrap{
+  flex-wrap: wrap;
+}
+.grid_cell {
+  flex: 1;
+}
+.grid_cell2{
+  flex: 2;
+}
+
+
+
+

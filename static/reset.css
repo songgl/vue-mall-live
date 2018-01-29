@@ -1,0 +1,79 @@
+@charset "utf-8";
+/*****************************************
+* @Author: Song
+* @Date: 2017-04-11
+* @Last Modified by: Song
+* @Last Modified time: 2017-04-11
+********************************************/
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html{
+	font-family: sans-serif;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%
+}
+
+html,body{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+body{background:#eef3f5;}
+html,body,h1,h2,h3,h4,h5,h6,hr,p,iframe,
+dl,dt,dd,ul,ol,li,pre,form,button,input,
+textarea,th,td,fieldset{margin:0;padding:0}
+ul,ol,dl{list-style-type:none}
+
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:400}
+input,button,textarea,select,optgroup,
+option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+input,button{overflow: visible;vertical-align:middle;outline:none}
+button,input{border:none;}
+body,th,td,button,input,select,
+textarea{color: #333;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing:grayscale}
+body{margin: auto;}
+th,td,button,input,
+select,textarea{font-family:"Microsoft Yahei","Hiragino Sans GB","Helvetica Neue",Helvetica,tahoma,arial,Verdana,sans-serif,"WenQuanYi Micro Hei","\5B8B\4F53";}
+div,p{word-wrap:break-word}
+a,area{outline:none;blr:expression(this.onFocus=this.blur())}
+a{text-decoration:none;cursor: pointer;color: #333}
+a:hover{text-decoration:underline;outline:none;}
+a:focus{outline:none}
+a:hover,a:active{outline:none;text-decoration: none;}:focus{outline:none}
+sub,sup{vertical-align:baseline}
+/*button,input[type="button"], input[type="submit"] {line-height:normal!important;}*/
+input:focus{border: none;}
+img{border:0;width: 100%;height: 100%;}
+a img,img{-ms-interpolation-mode:bicubic}
+*html{overflow:-moz-scrollbars-vertical;zoom:expression(function(ele){ele.style.zoom = "1";document.execCommand("BackgroundImageCache",false,true)}(this))}
+/*HTML5 reset*/
+header,footer,section,aside,details,
+menu,article,section,nav,address,
+hgroup,figure,figcaption,legend{display:block;margin:0;padding:0}
+time{display:inline}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1}
+audio:not([controls]){display:none}
+legend{width:100%;margin-bottom:20px;font-size:21px;line-height:40px;border:0;border-bottom:1px solid #e5e5e5}
+legend small{font-size:15px;color:#999}
+svg:not(:root){overflow: hidden}
+fieldset {border-width:0;padding: 0.35em 0.625em 0.75em;margin: 0 2px;border: 1px solid #c0c0c0}
+input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button {height: auto}
+input[type="search"] {-webkit-appearance: textfield; /* 1 */-moz-box-sizing: content-box;-webkit-box-sizing: content-box; /* 2 */box-sizing: content-box}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration {-webkit-appearance: none}
+input::-ms-clear{display: none;}
+textarea{resize: none;}
+/*去掉苹果对textarea的默认样式*/
+textarea ,input{/*-webkit-appearance: none;*/border-radius:0px;font-family:Microsoft YaHei}
+/*清除a,button,input手机端的点击效果*/
+a,button,input{-webkit-tap-highlight-color:rgba(255,0,0,0);}
+/*将设备自动添加的播放按钮隐藏*/
+video::-webkit-media-controls {  
+    display:none !important;
+}
+video{width: 100%;height: 100%;background:#000;}
+

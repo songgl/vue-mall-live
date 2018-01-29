@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8>
+  <meta name=viewport content="width=device-width,initial-scale=1">
+  <title>vue-mall</title>
+  <link rel=stylesheet href=./app/reset.css>
+  <link rel=stylesheet href=./app/common.css>
+  <link rel=stylesheet href=./app/pingpp.js>
+  <script type=text/javascript>
+    (function (doc, win) {
+      var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+          var clientWidth = docEl.clientWidth;
+          if (!clientWidth) return;
+          if(clientWidth>=640){
+            docEl.style.fontSize = '100px';
+          }else{
+            docEl.style.fontSize = 100 * (clientWidth / 750) + 'px'; // iphone6
+        }
+      };
+      if(!doc.addEventListener) return;
+      win.addEventListener(resizeEvt, recalc, false);
+      doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+  </script>
+  <link href=./app/css/app.fe679417e1c93615f3fffd529eb41c94.css rel=stylesheet>
+</head>
+<body>
+  <div id=app></div>
+  <script type=text/javascript src=./app/js/manifest.3a0ae9bbcbc6ebd80ec9.js></script>
+  <script type=text/javascript src=./app/js/vendor.c939775d4d80004f722a.js></script>
+  <script type=text/javascript src=./app/js/app.61ab4c3eae2541dd085a.js></script>
+</body>
+</html>
